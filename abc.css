@@ -1,0 +1,87 @@
+#countl {
+    text-align: center;
+    font-size: 10em;
+    display: block;
+    font-family: helvetica;
+    color: rgb(88, 22, 22);
+}
+body{
+    background-color: #d3d8d8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.but{
+    display: block;
+    text-align: center;
+    background-color: rgb(199, 210, 210);
+    padding: 30px 50px;
+    padding-bottom: 70px;
+   
+}
+.buto{
+    font-size: 1.2em;
+    background-color: hsl(178, 35%, 58%);
+    border: none ;
+    padding: 15px 20px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+color: azure;
+cursor: pointer;
+}
+.buto:hover {
+    background-color: rgb(3, 107, 107);
+}
+
+h1{
+    color: rgb(47, 64, 64);
+    font-size: 1.9em;
+}
+form{
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.5);
+    margin-top: 70px;
+
+}
+
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid #2724246b;
+    border-radius: 4px;
+    margin-bottom: 27px;
+    color:  hsla(120, 29%, 50%, 0.973);
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    background-color: hsla(120, 34%, 41%, 0.932);
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    padding: 11px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+span{
+    color:  hsla(120, 33%, 55%, 0.927);
+    text-decoration: underline;
+}
+button:hover{
+    background-color: hsla(120, 33%, 55%, 0.87);
+}
+#result{
+    font-size: 1.7em;
+    font-weight: bold;
+    color: hsla(120, 33%, 55%, 0.87);
+}

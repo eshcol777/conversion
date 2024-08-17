@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="abc.css">
+</head>
+<body>
+    <label id="countl" for="">0</label>
+    <div class="but">
+        <button id="decb" class="buto">Decrease</button>
+        <button id="res" class="buto">Reset</button>
+        <button id="incb" class="buto">Increase</button>
+    </div>
+
+    <script>
+        let countla = document.getElementById("countl");
+        const incbu = document.getElementById("incb");
+        let decbu = document.getElementById("decb");
+        let resbu = document.getElementById("res");
+        let count = 0;
+
+        incbu.onclick = function (){
+            count ++;
+            countla.innerHTML = count;
+
+        }
+        decbu.onclick = function (){
+            count --;
+            countla.innerHTML = count;
+
+        }
+        resbu.onclick = function (){
+            count = 0;
+            countla.innerHTML = count;
+
+        }
+    </script>
+</body>
+</html>
